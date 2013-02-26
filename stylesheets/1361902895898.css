@@ -3,6 +3,7 @@ html { height: 100% }
 body {
     font: normal 1em sans-serif;
     background: url("https://raw.github.com/ruzz311/JackTorrance/master/client/static/images/paper.jpg") fixed!important;
+    background-size: cover!important;
     text-align: left!important;
 }
 #content .underwood-font,
