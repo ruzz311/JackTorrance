@@ -2,8 +2,8 @@
     font-weight: 400;
     font-style: normal;
     font-family: 'UnderwoodChampionRegular';
-    src: url("/fonts/underwood_champion-webfont.eot");
-    src: local('☺'),url("/fonts/underwood_champion-webfont.woff") format('woff'),url("/fonts/underwood_champion-webfont.ttf") format('truetype'),url("/fonts/underwood_champion-webfont.svg#UnderwoodChampionRegular") format('svg');
+    src: url("/JackTorrance/fonts/underwood_champion-webfont.eot");
+    src: local('☺'),url("/JackTorrance/fonts/underwood_champion-webfont.woff") format('woff'),url("/JackTorrance/fonts/underwood_champion-webfont.ttf") format('truetype'),url("/JackTorrance/fonts/underwood_champion-webfont.svg#UnderwoodChampionRegular") format('svg');
 }
 .underwood-font,
 h1,
