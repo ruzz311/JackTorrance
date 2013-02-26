@@ -211,8 +211,8 @@ header {
   position:fixed;
   top: 0;
   left: 50%;
-	padding: 34px 25px 22px 50px;
-	margin: 30px -25px 0 0;
+	padding: 1em 25px 22px 50px;
+	margin: 0px -25px 0 0;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -248,6 +248,7 @@ header ul {
 }
 
 header li {
+  float: left;
 	list-style-type: none;
   width:132px;
   height:15px;
