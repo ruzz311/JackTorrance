@@ -1,14 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Hi, I've got an appointment with Mr. Ullman. My name is Jack Torrance.</title>
+        <link href="stylesheets/1361902895898.css" media="screen" rel="stylesheet"type="text/css">
+        <script src="javascripts/1361902895898.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        (function() {
+            var ht = Hogan.Template,
+                t = require('socketstream').tmpl;
+            t['chat-message'] = new ht(function(c, p, i) {
+                var _ = this;
+                _.b(i = i || "");
+                _.b("<p><span class=\"time\">");
+                _.b(_.v(_.f("time", c, p, 0)));
+                _.b("</span><span class=\"message\">");
+                _.b(_.v(_.f("message", c, p, 0)));
+                _.b("</span></p>");
+                return _.fl();;
+            });
+        }).call(this);
+        </script>
+    </head>
+    
+    <body>
+        <div id="content">
+            <p></p>
+        </div>
+    </body>
+
+</html>
+
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Jacktorrance by ruzz311</title>
-
+    
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <link href="stylesheets/1361902895898.css" media="screen" rel="stylesheet"type="text/css">
+    <script src="javascripts/1361902895898.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    (function() {
+        var ht = Hogan.Template,
+            t = require('socketstream').tmpl;
+        t['chat-message'] = new ht(function(c, p, i) {
+            var _ = this;
+            _.b(i = i || "");
+            _.b("<p><span class=\"time\">");
+            _.b(_.v(_.f("time", c, p, 0)));
+            _.b("</span><span class=\"message\">");
+            _.b(_.v(_.f("message", c, p, 0)));
+            _.b("</span></p>");
+            return _.fl();;
+        });
+    }).call(this);
+    </script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -29,14 +82,10 @@
 
 
       </header>
-      <section>
+      <section id="content">
         <h1>Put the bat down wendy... put the bat down.</h1>
-
-<p><img src="http://www.scare-zone.com/wordpress/wp-content/uploads/2011/09/ShiningHotel2.jpg" alt="snow-day"></p>
+        <p><img src="http://www.scare-zone.com/wordpress/wp-content/uploads/2011/09/ShiningHotel2.jpg" alt="snow-day"></p>
       </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 		
