@@ -5,13 +5,13 @@
     src: url("/JackTorrance/fonts/underwood_champion-webfont.eot");
     src: local('☺'),url("/JackTorrance/fonts/underwood_champion-webfont.woff") format('woff'),url("/JackTorrance/fonts/underwood_champion-webfont.ttf") format('truetype'),url("/JackTorrance/fonts/underwood_champion-webfont.svg#UnderwoodChampionRegular") format('svg');
 }
-.underwood-font,
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
+#content .underwood-font,
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content p {
     font-family: 'Special Elite', cursive;
     letter-spacing: 0;
 }
@@ -19,8 +19,8 @@ body,
 html { height: 100% }
 body {
     font: normal 1em sans-serif;
-    background: url("https://raw.github.com/ruzz311/JackTorrance/master/client/static/images/paper.jpg") fixed;
-    text-align: left;
+    background: url("https://raw.github.com/ruzz311/JackTorrance/master/client/static/images/paper.jpg") fixed!important;
+    text-align: left!important;
 }
 h1 {
     font-size: 1.5em;
