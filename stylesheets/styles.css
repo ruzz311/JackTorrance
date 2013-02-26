@@ -205,12 +205,13 @@ td {
 /* Header */
 
 header {
+  display: block;
 	background-color: transparent;
 	color: #FDFDFB;
   width:170px;
   position:fixed;
   top: 0;
-  left: 50%;
+  right: 0;
 	padding: 1em 25px 22px 50px;
 	margin: 0px -25px 0 0;
 	-webkit-font-smoothing: antialiased;
@@ -255,6 +256,8 @@ header li {
 	margin-bottom: 12px;
 	line-height: 1em;
 	padding: 6px 6px 6px 7px;
+  margin-right: 1em;
+  margin-left: 1em;
 
 	background: #AF0011;
 	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
