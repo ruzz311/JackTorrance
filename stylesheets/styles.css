@@ -208,10 +208,11 @@ header {
 	background-color: transparent;
 	color: #FDFDFB;
   width:170px;
-  float:right;
   position:fixed;
+  top: 0;
+  left: 50%;
 	padding: 34px 25px 22px 50px;
-	margin: 30px 25px 0 0;
+	margin: 30px -25px 0 0;
 	-webkit-font-smoothing: antialiased;
 }
 
